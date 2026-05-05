@@ -1,6 +1,5 @@
 anthropic==0.98.1
 bert_score==0.3.13
-Bio==1.8.1
 biopython==1.87
 huggingface_hub==1.3.4
 matplotlib==3.10.9
