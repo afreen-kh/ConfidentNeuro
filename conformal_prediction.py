@@ -61,8 +61,11 @@ def run_analysis():
         # Conformal Prediction Calibration
         q_hat_01 = None
         for alpha in alpha_levels:
-            # q_hat = quantile(1-alpha) on calibration set
-            q_hat = np.quantile(train_df['nonconformity_score'], 1 - alpha)
+            # q_hat using finite-sample valid formula from Angelopoulos & Bates 2023
+            n_cal = len(train_df)
+            level = np.ceil((n_cal + 1) * (1 - alpha)) / n_cal
+            level = min(level, 1.0)
+            q_hat = np.quantile(train_df['nonconformity_score'], level)
             
             # Apply to test set
             test_df[f'conforming_{alpha}'] = test_df['nonconformity_score'] <= q_hat
