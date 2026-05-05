@@ -50,7 +50,7 @@ Runs systematic ablation runs to observe the sensitivity of the conformal predic
    3 `GEMINI_API_KEY`: Required for benchmark question generation.
    4 `NCBI_API_KEY`: Required for fetching PubMed abstracts via Entrez.
    5 `HF_TOKEN`: Required for HuggingFace inference (BioMistral, Mistral, LLaMa, etc).
-   6 ENTREZ_EMAIL: Required by NCBI Entrez API (any valid email address).
+   6 `ENTREZ_EMAIL`: Required by NCBI Entrez API (any valid email address).
 
 ## How to Run
 Run the scripts sequentially to reproduce the pipeline from end to end:
