@@ -1,0 +1,1352 @@
+[
+    {
+        "question_id": "DIAG_717_001",
+        "category": "Category 1: Diagnosis",
+        "question": "According to the survey, what are the primary benefits of early detection of Alzheimer's Disease?",
+        "ground_truth_answer": "Early detection is crucial for slowing disease progression and improving patient outcomes.",
+        "source_pmid": "41728717",
+        "mesh_terms": "Alzheimer Disease/diagnosis",
+        "difficulty": "easy"
+    },
+    {
+        "question_id": "DIAG_717_002",
+        "category": "Category 1: Diagnosis",
+        "question": "A 75-year-old patient is exhibiting minor memory loss. Based on the abstract, what specific, non-invasive, AI-driven methods could be suggested for initial assessment of early-stage Alzheimer's?",
+        "ground_truth_answer": "The survey suggests non-invasive techniques leveraging AI such as speech analysis and gait monitoring to detect subtle cognitive and physical changes associated with early Alzheimer's.",
+        "source_pmid": "41728717",
+        "mesh_terms": "Alzheimer Disease/diagnosis",
+        "difficulty": "medium"
+    },
+    {
+        "question_id": "DIAG_717_003",
+        "category": "Category 1: Diagnosis",
+        "question": "For a patient in the prodromal stage of Alzheimer's, where symptoms are subtle, why are emerging techniques like speech analysis and gait monitoring considered particularly valuable compared to traditional diagnostic approaches implied by the text?",
+        "ground_truth_answer": "These techniques are valuable because they are non-invasive and leverage AI and computer vision to detect the very subtle cognitive and physical changes characteristic of the early stages of Alzheimer's, which may be missed by standard observation until the disease is more advanced.",
+        "source_pmid": "41728717",
+        "mesh_terms": "Alzheimer Disease/diagnosis",
+        "difficulty": "hard"
+    },
+    {
+        "question_id": "DIAG_413_001",
+        "category": "Category 1: Diagnosis",
+        "question": "What is the primary advantage of using Fair MCCA (F-MCCA) over standard MCCA when analyzing neuroimaging data for Alzheimer's Disease?",
+        "ground_truth_answer": "The primary advantage is that F-MCCA mitigates demographic bias (e.g., by sex) in the analysis, leading to more equitable results across different groups with only a minimal sacrifice in overall correlation performance.",
+        "source_pmid": "41726413",
+        "mesh_terms": "Alzheimer Disease/diagnosis",
+        "difficulty": "easy"
+    },
+    {
+        "question_id": "DIAG_413_002",
+        "category": "Category 1: Diagnosis",
+        "question": "If a new diagnostic model for Alzheimer's, built on multi-modal data, shows high overall accuracy but has a significantly different error rate for men versus women, which specific fairness metric mentioned in the study would F-MCCA aim to improve?",
+        "ground_truth_answer": "F-MCCA would aim to improve the 'equalized odds difference.' This metric specifically addresses disparities in true positive and false positive rates between sensitive groups, which corresponds to having different error rates for men and women.",
+        "source_pmid": "41726413",
+        "mesh_terms": "Alzheimer Disease/diagnosis",
+        "difficulty": "medium"
+    },
+    {
+        "question_id": "DIAG_413_003",
+        "category": "Category 1: Diagnosis",
+        "question": "A hospital is considering two AI models for Alzheimer's diagnosis support. Model A (standard MCCA) has 88% overall accuracy. Model B (F-MCCA) has 86% overall accuracy but demonstrates near-zero demographic parity and equalized odds differences between sexes. From a clinical ethics and utility standpoint, why might Model B be the superior choice despite its slightly lower accuracy?",
+        "ground_truth_answer": "Model B would likely be the superior choice because its fairness ensures that the diagnostic support it provides is reliable and not systematically biased against either sex. A small drop in overall accuracy is an acceptable trade-off to avoid the significant clinical risk of consistently misdiagnosing or failing to diagnose patients from a specific demographic group, thereby ensuring more equitable care.",
+        "source_pmid": "41726413",
+        "mesh_terms": "Alzheimer Disease/diagnosis",
+        "difficulty": "hard"
+    },
+    {
+        "question_id": "DIAG_137_001",
+        "category": "Category 1: Diagnosis",
+        "question": "Which machine learning model achieved the highest accuracy on clinical data in this study, and what was that accuracy?",
+        "ground_truth_answer": "Random Forest (RF) achieved the highest accuracy of 97% on clinical data.",
+        "source_pmid": "41591137",
+        "mesh_terms": "Alzheimer Disease/diagnosis",
+        "difficulty": "easy"
+    },
+    {
+        "question_id": "DIAG_137_002",
+        "category": "Category 1: Diagnosis",
+        "question": "What computational approach, distinct from traditional machine learning classifiers, was applied to MRI scans for stage-wise classification of Alzheimer's disease in this study?",
+        "ground_truth_answer": "Deep learning (DL) models were applied to MRI scans for stage-wise classification.",
+        "source_pmid": "41591137",
+        "mesh_terms": "Alzheimer Disease/diagnosis",
+        "difficulty": "easy"
+    },
+    {
+        "question_id": "DIAG_137_003",
+        "category": "Category 1: Diagnosis",
+        "question": "What specific explainable AI (XAI) techniques were incorporated into this study to provide interpretability for the diagnostic models?",
+        "ground_truth_answer": "SHAP and Grad-CAM visualizations were incorporated for interpretability.",
+        "source_pmid": "41591137",
+        "mesh_terms": "Alzheimer Disease/diagnosis",
+        "difficulty": "medium"
+    },
+    {
+        "question_id": "DIAG_198_001",
+        "category": "Category 1: Diagnosis",
+        "question": "According to the abstract, what type of biomarkers has been a recent focus in Alzheimer's Disease research for diagnostic purposes?",
+        "ground_truth_answer": "Recent Alzheimer's Disease research has focused on potential CSF biomarkers as diagnostic tools.",
+        "source_pmid": "41570198",
+        "mesh_terms": "Alzheimer Disease/diagnosis",
+        "difficulty": "easy"
+    },
+    {
+        "question_id": "DIAG_198_002",
+        "category": "Category 1: Diagnosis",
+        "question": "What specific CSF biomarker ratio is being investigated for discordance with amyloid status in this study, and what method was employed to determine its diagnostic cutoff?",
+        "ground_truth_answer": "The study is investigating the discordance between CSF A\u03b242:40 and amyloid status. The diagnostic cutoff for A\u03b242:40 was calculated using the Youden Index, which resulted from a receiver operating characteristic (ROC) curve.",
+        "source_pmid": "41570198",
+        "mesh_terms": "Alzheimer Disease/diagnosis",
+        "difficulty": "medium"
+    },
+    {
+        "question_id": "DIAG_198_003",
+        "category": "Category 1: Diagnosis",
+        "question": "Beyond examining the discordance between CSF A\u03b242:40 and amyloid status, what additional pathological characteristic does this study aim to evaluate in relation to these changes?",
+        "ground_truth_answer": "The study aims to evaluate whether there are any significant changes in the levels of tau aggregation associated with the discordance between CSF A\u03b242:40 and amyloid status.",
+        "source_pmid": "41570198",
+        "mesh_terms": "Alzheimer Disease/diagnosis",
+        "difficulty": "hard"
+    },
+    {
+        "question_id": "DIAG_193_001",
+        "category": "Category 1: Diagnosis",
+        "question": "What is the primary objective of the study concerning tau PET tracers and Braak staging?",
+        "ground_truth_answer": "The study aims to compare Braak staging across four different tau PET tracers: Flortaucipir, MK6240, PI2620, and RO948.",
+        "source_pmid": "41570193",
+        "mesh_terms": "Alzheimer Disease/diagnosis",
+        "difficulty": "easy"
+    },
+    {
+        "question_id": "DIAG_193_002",
+        "category": "Category 1: Diagnosis",
+        "question": "According to the abstract, what inherent challenges exist when adapting the histopathological Braak staging framework to PET imaging?",
+        "ground_truth_answer": "Challenges arise due to differences in tracer uptake patterns and binding properties, which can affect sensitivity, specificity, and regional staging in PET imaging.",
+        "source_pmid": "41570193",
+        "mesh_terms": "Alzheimer Disease/diagnosis",
+        "difficulty": "medium"
+    },
+    {
+        "question_id": "DIAG_193_003",
+        "category": "Category 1: Diagnosis",
+        "question": "Which specific analytical methods were used in this study to evaluate systematic bias and agreement between the different tau PET tracers for Braak stage estimates?",
+        "ground_truth_answer": "The researchers computed pairwise differences at corresponding Braak stage estimates and applied the Bland-Altman method to assess mean bias and limits of agreement.",
+        "source_pmid": "41570193",
+        "mesh_terms": "Alzheimer Disease/diagnosis",
+        "difficulty": "medium"
+    },
+    {
+        "question_id": "DIAG_330_001",
+        "category": "Category 1: Diagnosis",
+        "question": "What is the primary clinical objective addressed by the research described in the abstract?",
+        "ground_truth_answer": "The primary clinical objective is the early diagnosis of Alzheimer's disease (AD).",
+        "source_pmid": "41534330",
+        "mesh_terms": "Alzheimer Disease/diagnosis",
+        "difficulty": "easy"
+    },
+    {
+        "question_id": "DIAG_330_002",
+        "category": "Category 1: Diagnosis",
+        "question": "What type of novel neural network architecture is proposed to integrate both image and non-image information for Alzheimer's disease classification?",
+        "ground_truth_answer": "A novel graph attention network (GAT) is proposed.",
+        "source_pmid": "41534330",
+        "mesh_terms": "Alzheimer Disease/diagnosis",
+        "difficulty": "medium"
+    },
+    {
+        "question_id": "DIAG_330_003",
+        "category": "Category 1: Diagnosis",
+        "question": "How does the proposed method initially process blood-oxygen-level-dependent (BOLD) signals and integrate structural information to obtain brain networks?",
+        "ground_truth_answer": "Initially, a group sparse representation approach is devised to consider the strength of connections among BOLD signals in corresponding brain regions, which constrains the correlation between brain functional networks. Subsequently, structural networks are utilized as a means of supervising the construction of these functional networks.",
+        "source_pmid": "41534330",
+        "mesh_terms": "Alzheimer Disease/diagnosis",
+        "difficulty": "hard"
+    },
+    {
+        "question_id": "DIAG_107_001",
+        "category": "Category 1: Diagnosis",
+        "question": "What is the primary research gap concerning plasma biomarkers and cognitive decline that this study aims to address?",
+        "ground_truth_answer": "The study aims to clarify the relationship between plasma biomarkers (known for detecting AD/ADRD-related brain pathology) and cognitive decline, as this relationship remains unclear despite their excellent performance in pathology detection.",
+        "source_pmid": "41534107",
+        "mesh_terms": "Alzheimer Disease/diagnosis",
+        "difficulty": "easy"
+    },
+    {
+        "question_id": "DIAG_107_002",
+        "category": "Category 1: Diagnosis",
+        "question": "List the five specific plasma biomarkers that were measured in this study.",
+        "ground_truth_answer": "The measured plasma biomarkers were p-tau181, p-tau217, brain-derived tau (BD-tau), GFAP, and NfL.",
+        "source_pmid": "41534107",
+        "mesh_terms": "Alzheimer Disease/diagnosis",
+        "difficulty": "medium"
+    },
+    {
+        "question_id": "DIAG_107_003",
+        "category": "Category 1: Diagnosis",
+        "question": "Describe the timeline for cognitive assessments in the study, including the frequency, maximum duration, and the median (with IQR) follow-up period.",
+        "ground_truth_answer": "After baseline assessment, participants underwent annual CDR assessments for up to 29 years, with a median follow-up time of 3.0 years (IQR 1.9-5.9).",
+        "source_pmid": "41534107",
+        "mesh_terms": "Alzheimer Disease/diagnosis",
+        "difficulty": "hard"
+    },
+    {
+        "question_id": "DIAG_344_001",
+        "category": "Category 1: Diagnosis",
+        "question": "According to the abstract, what are the primary characteristics of Alzheimer's disease?",
+        "ground_truth_answer": "Alzheimer's disease (AD) is described as a neurodegenerative disease, one of the leading causes of dementia globally, characterized by a long pre-symptomatic period and the gradual development of cognitive impairment.",
+        "source_pmid": "41524344",
+        "mesh_terms": "Alzheimer Disease/diagnosis",
+        "difficulty": "easy"
+    },
+    {
+        "question_id": "DIAG_344_002",
+        "category": "Category 1: Diagnosis",
+        "question": "Why is the improvement of early diagnosis methods for Alzheimer's disease highlighted as a key area of focus?",
+        "ground_truth_answer": "Improving early diagnosis methods is crucial to enable therapeutic intervention during pre-dementia stages, which can help prevent the irreversible progressive degeneration of neuronal structures.",
+        "source_pmid": "41524344",
+        "mesh_terms": "Alzheimer Disease/diagnosis",
+        "difficulty": "medium"
+    },
+    {
+        "question_id": "DIAG_344_003",
+        "category": "Category 1: Diagnosis",
+        "question": "What are the stated limitations of using cerebrospinal fluid (CSF) analysis for diagnosing Alzheimer's disease in clinical practice?",
+        "ground_truth_answer": "The use of CSF analysis for AD diagnosis in clinical practice is limited due to its low accessibility and the invasive nature of the sampling procedure.",
+        "source_pmid": "41524344",
+        "mesh_terms": "Alzheimer Disease/diagnosis",
+        "difficulty": "easy"
+    },
+    {
+        "question_id": "DIAG_246_001",
+        "category": "Category 1: Diagnosis",
+        "question": "According to the abstract, what is an important area of research in addressing cognitive disorders?",
+        "ground_truth_answer": "The identification of molecular biomarkers that reflect early pathophysiological changes and facilitate a more accurate biological characterization of cognitive impairment.",
+        "source_pmid": "41516246",
+        "mesh_terms": "Alzheimer Disease/diagnosis",
+        "difficulty": "easy"
+    },
+    {
+        "question_id": "DIAG_246_002",
+        "category": "Category 1: Diagnosis",
+        "question": "Which specific molecular biomarkers are mentioned in the abstract as being part of comprehensive diagnostic panels for Alzheimer's disease (AD) and vascular dementia (VD)?",
+        "ground_truth_answer": "The abstract mentions \u03b2-amyloid, CD34, claudin, DRP1, endothelin-1, NF-kB, PINK1, RAGE, S100, \u03b1-synuclein, and tau protein.",
+        "source_pmid": "41516246",
+        "mesh_terms": "Alzheimer Disease/diagnosis",
+        "difficulty": "medium"
+    },
+    {
+        "question_id": "DIAG_246_003",
+        "category": "Category 1: Diagnosis",
+        "question": "Based on the study's results, what is the key advantage of using comprehensive panels of signaling molecules, rather than individual markers, for diagnosing cognitive disorders like AD and VD?",
+        "ground_truth_answer": "The study results demonstrate that cumulative changes in the expression of signaling molecules reflect various neurodegenerative and vascular-associated biological processes, which allows for a more comprehensive and accurate biological characterization of cognitive impairment.",
+        "source_pmid": "41516246",
+        "mesh_terms": "Alzheimer Disease/diagnosis",
+        "difficulty": "hard"
+    },
+    {
+        "question_id": "DIAG_074_001",
+        "category": "Category 1: Diagnosis",
+        "question": "According to this study, what advanced optical spectroscopy methods were utilized to identify nanoscale structural changes in the brains of 5xFAD mice indicative of Alzheimer's disease?",
+        "ground_truth_answer": "Light-scattering techniques, specifically Partial Wave Spectroscopy (PWS) and Inverse Participation Ratio (IPR).",
+        "source_pmid": "41516074",
+        "mesh_terms": "Alzheimer Disease/diagnosis",
+        "difficulty": "easy"
+    },
+    {
+        "question_id": "DIAG_074_002",
+        "category": "Category 1: Diagnosis",
+        "question": "When using the light-scattering techniques described in the study, what specific nanoscale structural alterations were observed to be significantly increased in the brains of 5xFAD mice compared to Non-transgenic controls?",
+        "ground_truth_answer": "Significant increases in structural heterogeneity and mass density fluctuations.",
+        "source_pmid": "41516074",
+        "mesh_terms": "Alzheimer Disease/diagnosis",
+        "difficulty": "easy"
+    },
+    {
+        "question_id": "DIAG_074_003",
+        "category": "Category 1: Diagnosis",
+        "question": "Beyond the optical spectroscopy findings, what behavioral assessment was performed in 5xFAD mice, and what cognitive impairment did it reveal, supporting the AD pathology observations?",
+        "ground_truth_answer": "The Novel Object Recognition test was used, which demonstrated memory impairment in 5xFAD mice.",
+        "source_pmid": "41516074",
+        "mesh_terms": "Alzheimer Disease/diagnosis",
+        "difficulty": "medium"
+    },
+    {
+        "question_id": "STAG_014_001",
+        "category": "Category 2: Disease Staging",
+        "question": "What is the primary pathological method used to classify Tauopathies according to the abstract?",
+        "ground_truth_answer": "Tauopathies are pathologically classified based on the major Tau isoforms (3R, 4R, or an equal 3R:4R ratio) identified in the inclusion bodies of the brain.",
+        "source_pmid": "41904014",
+        "mesh_terms": "Alzheimer Disease/pathology",
+        "difficulty": "easy"
+    },
+    {
+        "question_id": "STAG_014_002",
+        "category": "Category 2: Disease Staging",
+        "question": "Beyond the classification based on Tau isoforms, what additional aspects does the abstract mention are used to differentiate and characterize various Tauopathies?",
+        "ground_truth_answer": "The review differentiates Tauopathies by considering whether they are primary or secondary forms, the involvement of specific Tau isoforms, the affected brain areas, and the corresponding neuropathological features.",
+        "source_pmid": "41904014",
+        "mesh_terms": "Alzheimer Disease/pathology",
+        "difficulty": "medium"
+    },
+    {
+        "question_id": "STAG_014_003",
+        "category": "Category 2: Disease Staging",
+        "question": "How does the abstract categorize the forms of Tauopathies it will address in the review, regarding their origin or manifestation?",
+        "ground_truth_answer": "The review addresses Tauopathies by differentiating between primary and secondary forms.",
+        "source_pmid": "41904014",
+        "mesh_terms": "Alzheimer Disease/pathology",
+        "difficulty": "easy"
+    },
+    {
+        "question_id": "STAG_009_001",
+        "category": "Category 2: Disease Staging",
+        "question": "Which two specific Type III intermediate filament proteins are explicitly mentioned as highly involved in neurodegenerative diseases?",
+        "ground_truth_answer": "Glial Fibrillary Acidic Protein (GFAP) and peripherin.",
+        "source_pmid": "41904009",
+        "mesh_terms": "Alzheimer Disease/pathology",
+        "difficulty": "easy"
+    },
+    {
+        "question_id": "STAG_009_002",
+        "category": "Category 2: Disease Staging",
+        "question": "Neurofilament proteins NF-L, NF-M, and NF-H are highlighted for their significant involvement in neurodegenerative diseases. What type of intermediate filament do these proteins belong to, and what do the letters L, M, and H denote?",
+        "ground_truth_answer": "These proteins belong to Type IV intermediate filaments. L signifies light, M signifies medium, and H signifies heavy.",
+        "source_pmid": "41904009",
+        "mesh_terms": "Alzheimer Disease/pathology",
+        "difficulty": "medium"
+    },
+    {
+        "question_id": "STAG_009_003",
+        "category": "Category 2: Disease Staging",
+        "question": "Considering the observed involvement of Type III, Type IV, Type V, and Type VI intermediate filaments in neurodegenerative diseases such as Alzheimer's and Multiple Sclerosis, how might this information be utilized for clinical decision support related to disease staging, despite the abstract not detailing specific staging methods?",
+        "ground_truth_answer": "Although the abstract confirms the involvement of these intermediate filaments in neurodegenerative diseases, it does not specify staging protocols. However, this involvement suggests their potential as biomarkers. In a clinical setting, monitoring changes in their expression levels, aggregation, or cellular distribution could provide insights for diagnosis, track disease progression, or help stratify patients based on disease severity, thereby aiding in disease staging and treatment decisions. For example, elevated levels of neurofilaments in cerebrospinal fluid or blood are often used as markers of neuronal damage, reflecting disease activity.",
+        "source_pmid": "41904009",
+        "mesh_terms": "Alzheimer Disease/pathology",
+        "difficulty": "hard"
+    },
+    {
+        "question_id": "STAG_008_001",
+        "category": "Category 2: Disease Staging",
+        "question": "According to the abstract, what is the initial modification to the microtubule-associated protein Tau that characterizes Alzheimer's Disease and impacts cytoskeletal function?",
+        "ground_truth_answer": "Alzheimer's Disease is characterized by hyperphosphorylation of the microtubule-associated protein Tau, which impairs Tau's ability to stabilize microtubules, leading to structural instability.",
+        "source_pmid": "41904008",
+        "mesh_terms": "Alzheimer Disease/pathology",
+        "difficulty": "easy"
+    },
+    {
+        "question_id": "STAG_008_002",
+        "category": "Category 2: Disease Staging",
+        "question": "How do G-protein coupled receptors (GPCRs) mediate cellular responses to extracellular Tau in the context of neurodegenerative diseases, as described in the abstract?",
+        "ground_truth_answer": "Extracellular Tau species interact with GPCRs, particularly in microglia and astrocytes, triggering neuroinflammatory responses and cytoskeletal remodelling.",
+        "source_pmid": "41904008",
+        "mesh_terms": "Alzheimer Disease/pathology",
+        "difficulty": "medium"
+    },
+    {
+        "question_id": "STAG_008_003",
+        "category": "Category 2: Disease Staging",
+        "question": "What are the key consequences of hyperphosphorylated Tau's inability to stabilize microtubules, leading to both functional impairment and observable pathological structures in Alzheimer's Disease?",
+        "ground_truth_answer": "The consequences include disrupted axonal transport, neuronal degeneration, and the aggregation of hyperphosphorylated Tau into neurofibrillary tangles and oligomers, exacerbating cellular dysfunction.",
+        "source_pmid": "41904008",
+        "mesh_terms": "Alzheimer Disease/pathology",
+        "difficulty": "medium"
+    },
+    {
+        "question_id": "STAG_006_001",
+        "category": "Category 2: Disease Staging",
+        "question": "What specific post-translational modification of tau is identified as a critical factor in Alzheimer's disease pathogenesis, leading to cytoskeletal disruption and impaired synaptic plasticity?",
+        "ground_truth_answer": "Tau acetylation.",
+        "source_pmid": "41904006",
+        "mesh_terms": "Alzheimer Disease/pathology",
+        "difficulty": "easy"
+    },
+    {
+        "question_id": "STAG_006_002",
+        "category": "Category 2: Disease Staging",
+        "question": "Name at least three specific cellular processes crucial for synaptic plasticity that are directly impaired by the disruption of cytoskeletal integrity due to acetylated tau aggregates in Alzheimer's disease.",
+        "ground_truth_answer": "Impaired dendritic spine formation, \u03b1-amino-3-hydroxy-5-methyl-4-isoxazole propionic acid (AMPA) receptor trafficking, mitochondrial transport, and autophagy.",
+        "source_pmid": "41904006",
+        "mesh_terms": "Alzheimer Disease/pathology",
+        "difficulty": "medium"
+    },
+    {
+        "question_id": "STAG_006_003",
+        "category": "Category 2: Disease Staging",
+        "question": "Beyond neurons, which other major category of brain cells, including specific examples, are mentioned as having their contribution to synaptic plasticity interfered with by acetylated tau aggregates in Alzheimer's disease?",
+        "ground_truth_answer": "Glial cells, specifically astrocytes, oligodendrocytes, and microglia.",
+        "source_pmid": "41904006",
+        "mesh_terms": "Alzheimer Disease/pathology",
+        "difficulty": "medium"
+    },
+    {
+        "question_id": "STAG_005_001",
+        "category": "Category 2: Disease Staging",
+        "question": "According to the abstract, what are the primary cellular components whose dynamics are disrupted by Tau pathology in Alzheimer's disease?",
+        "ground_truth_answer": "Tau pathology in Alzheimer's disease disrupts cytoskeletal dynamics, specifically leading to actin and microtubule remodeling.",
+        "source_pmid": "41904005",
+        "mesh_terms": "Alzheimer Disease/pathology",
+        "difficulty": "easy"
+    },
+    {
+        "question_id": "STAG_005_002",
+        "category": "Category 2: Disease Staging",
+        "question": "How does dysregulation of G-protein coupled receptor (GPCR) pathways impact the progression of Alzheimer's disease pathology, according to this study?",
+        "ground_truth_answer": "Dysregulation of GPCR pathways impairs microglial function, which in turn exacerbates Tau aggregation and neuroinflammation, thus contributing to disease progression.",
+        "source_pmid": "41904005",
+        "mesh_terms": "Alzheimer Disease/pathology",
+        "difficulty": "medium"
+    },
+    {
+        "question_id": "STAG_005_003",
+        "category": "Category 2: Disease Staging",
+        "question": "Based on the findings presented, what are the proposed therapeutic targets or strategies that could mitigate Tau pathology and stabilize the cytoskeleton in Alzheimer's disease?",
+        "ground_truth_answer": "Potential therapeutic approaches include targeting GPCR-mediated pathways, as well as strategies aimed at enhancing actin stability and microtubule dynamics.",
+        "source_pmid": "41904005",
+        "mesh_terms": "Alzheimer Disease/pathology",
+        "difficulty": "hard"
+    },
+    {
+        "question_id": "STAG_004_001",
+        "category": "Category 2: Disease Staging",
+        "question": "What are the three main structural regions of a podosome as described in the text, and what are they primarily composed of?",
+        "ground_truth_answer": "Podosomes are comprised of an actin filament core, a ring region composed of integrin and integrin-actin linkers, and a cap composed of tropomyosin 4.",
+        "source_pmid": "41904004",
+        "mesh_terms": "Alzheimer Disease/pathology",
+        "difficulty": "easy"
+    },
+    {
+        "question_id": "STAG_004_002",
+        "category": "Category 2: Disease Staging",
+        "question": "List at least five distinct molecular components that are involved in the formation of podosomes, as mentioned in the abstract.",
+        "ground_truth_answer": "Molecular components involved in podosome formation include, but are not limited to: phosphatidylinositol, Src kinases, PI3 kinase, TKS5, integrins, cortactin, paxillin, Iba1, Sk3, PAM, EB1, CDC42, WASP, and Arp2/3. (Any five from this list are acceptable).",
+        "source_pmid": "41904004",
+        "mesh_terms": "Alzheimer Disease/pathology",
+        "difficulty": "medium"
+    },
+    {
+        "question_id": "STAG_004_003",
+        "category": "Category 2: Disease Staging",
+        "question": "Given that podosomes are implicated in Alzheimer's disease pathology and are known to contribute to extracellular matrix (ECM) degradation and mechanosensing, how might their presence or activity be utilized as a potential indicator for disease staging or progression monitoring in Alzheimer's disease?",
+        "ground_truth_answer": "Since podosomes are part of Alzheimer's disease pathology and play a role in ECM degradation and mechanosensing, changes in their formation, organization, or activity (such as altered ECM degradation rates or mechanosensing signals) could potentially reflect the state or progression of the disease. Monitoring these podosome characteristics might therefore serve as an indicator for disease staging or for tracking changes in the cellular microenvironment relevant to Alzheimer's pathology.",
+        "source_pmid": "41904004",
+        "mesh_terms": "Alzheimer Disease/pathology",
+        "difficulty": "hard"
+    },
+    {
+        "question_id": "STAG_000_001",
+        "category": "Category 2: Disease Staging",
+        "question": "What is the primary pathological alteration of Tau protein in Alzheimer's disease that directly leads to Tauopathies?",
+        "ground_truth_answer": "In Alzheimer's disease, the Tau protein becomes hyperphosphorylated and forms neurofibrillary tangles.",
+        "source_pmid": "41904000",
+        "mesh_terms": "Alzheimer Disease/pathology",
+        "difficulty": "easy"
+    },
+    {
+        "question_id": "STAG_000_002",
+        "category": "Category 2: Disease Staging",
+        "question": "According to the abstract, how does Tau pathology specifically impair synaptic function in Alzheimer's disease?",
+        "ground_truth_answer": "Tau pathology impairs synaptic plasticity by disrupting both actin and microtubule cytoskeletons, leading to dendritic spine loss and synaptic failure.",
+        "source_pmid": "41904000",
+        "mesh_terms": "Alzheimer Disease/pathology",
+        "difficulty": "medium"
+    },
+    {
+        "question_id": "STAG_000_003",
+        "category": "Category 2: Disease Staging",
+        "question": "Beyond the disruption of microtubule dynamics, what are the other major consequences of Tau pathology and cytoskeletal dysregulation described in the abstract regarding neuronal health and disease progression?",
+        "ground_truth_answer": "Tau pathology and cytoskeletal dysregulation lead to disrupted axonal transport, overall neuronal integrity issues, synaptic dysfunction, oxidative stress, neuronal degeneration, and accelerated neurodegenerative processes.",
+        "source_pmid": "41904000",
+        "mesh_terms": "Alzheimer Disease/pathology",
+        "difficulty": "hard"
+    },
+    {
+        "question_id": "STAG_395_001",
+        "category": "Category 2: Disease Staging",
+        "question": "According to the abstract, what are the key characteristics of aging-associated gut dysbiosis linked to neurocognitive decline and neurodegenerative disorders like Alzheimer's disease?",
+        "ground_truth_answer": "Aging-associated gut dysbiosis is marked by the loss of beneficial microbes, expansion of opportunistic pathogens, and reduced microbial diversity.",
+        "source_pmid": "41874395",
+        "mesh_terms": "Alzheimer Disease/pathology",
+        "difficulty": "easy"
+    },
+    {
+        "question_id": "STAG_395_002",
+        "category": "Category 2: Disease Staging",
+        "question": "What immediate consequence of aging-associated gut dysbiosis can lead to microbial components entering the general circulation?",
+        "ground_truth_answer": "Aging-associated gut dysbiosis can compromise intestinal barrier integrity, leading to a 'leaky gut' and increased translocation of microbial components or pathogens into the circulation.",
+        "source_pmid": "41874395",
+        "mesh_terms": "Alzheimer Disease/pathology",
+        "difficulty": "medium"
+    },
+    {
+        "question_id": "STAG_395_003",
+        "category": "Category 2: Disease Staging",
+        "question": "Describe the proposed sequence of events by which 'pathobiome'-driven elements contribute to central nervous system pathology in Alzheimer's disease, as outlined in the abstract.",
+        "ground_truth_answer": "'Pathobiome'-driven elements contribute to AD pathology when aging-associated gut dysbiosis compromises intestinal barrier integrity, resulting in a 'leaky gut' and increased translocation of microbial components or pathogens into the circulation. These elements then cross a weakened blood-brain barrier, triggering neuroinflammation, amyloid-beta accumulation, tau hyperphosphorylation, and neuronal injury, thereby initiating or accelerating AD pathophysiology.",
+        "source_pmid": "41874395",
+        "mesh_terms": "Alzheimer Disease/pathology",
+        "difficulty": "hard"
+    },
+    {
+        "question_id": "STAG_206_001",
+        "category": "Category 2: Disease Staging",
+        "question": "According to the abstract, what are the noticeable symptoms associated with Alzheimer's disease (AD)?",
+        "ground_truth_answer": "The noticeable symptoms of Alzheimer's disease include impaired memory and cognitive decline.",
+        "source_pmid": "41708206",
+        "mesh_terms": "Alzheimer Disease/pathology",
+        "difficulty": "easy"
+    },
+    {
+        "question_id": "STAG_206_002",
+        "category": "Category 2: Disease Staging",
+        "question": "The abstract describes Tau protein interactions as having dual outcomes. What are these two primary categories of outcomes when Tau interacts with other proteins?",
+        "ground_truth_answer": "Tau protein interactions can either facilitate biological function or contribute to Tau-mediated pathogenic changes. Furthermore, these interactions can either propagate Tau pathogenesis or have a neuroprotective role, such as lowering toxic Tau species or inflammation.",
+        "source_pmid": "41708206",
+        "mesh_terms": "Alzheimer Disease/pathology",
+        "difficulty": "medium"
+    },
+    {
+        "question_id": "STAG_206_003",
+        "category": "Category 2: Disease Staging",
+        "question": "The abstract identifies the intracellular aggregation of Tau into NFTs as the 'histopathological indicator that impairs the neuronal function' in AD. Given the context of disease staging, what is the significance of this specific indicator and its impact?",
+        "ground_truth_answer": "As a histopathological indicator, the intracellular aggregation of Tau into Neurofibrillary Tangles (NFTs) is a crucial pathological hallmark used to identify and potentially stage Alzheimer's disease. Its significance lies in directly linking a specific cellular pathology (Tau aggregation) to the observed functional impairment of neurons, which contributes to the symptomatic memory and cognitive decline characteristic of AD.",
+        "source_pmid": "41708206",
+        "mesh_terms": "Alzheimer Disease/pathology",
+        "difficulty": "hard"
+    },
+    {
+        "question_id": "STAG_751_001",
+        "category": "Category 2: Disease Staging",
+        "question": "According to the abstract, what biological processes characterize the progression of Alzheimer's disease that current treatments fail to halt, which is relevant for understanding disease staging?",
+        "ground_truth_answer": "Current treatments fail to halt neurodegenerative processes in the brain and do not promote the regeneration of nervous tissue.",
+        "source_pmid": "41665751",
+        "mesh_terms": "Alzheimer Disease/pathology",
+        "difficulty": "easy"
+    },
+    {
+        "question_id": "STAG_751_002",
+        "category": "Category 2: Disease Staging",
+        "question": "For clinicians assessing the ongoing pathological changes and potential for disease progression in Alzheimer's patients, what critical limitations of existing therapies are highlighted in this review regarding their impact on disease trajectory?",
+        "ground_truth_answer": "Existing therapies are critically limited because they cannot stop the ongoing neurodegenerative processes in the brain nor can they promote the regeneration of nervous tissue, thereby failing to alter the disease's trajectory.",
+        "source_pmid": "41665751",
+        "mesh_terms": "Alzheimer Disease/pathology",
+        "difficulty": "medium"
+    },
+    {
+        "question_id": "STAG_751_003",
+        "category": "Category 2: Disease Staging",
+        "question": "If a patient's Alzheimer's disease is characterized by significant and ongoing neurodegeneration with an inability for neural tissue repair, what novel therapeutic strategy, as presented in the abstract, offers a potential solution specifically addressing these advanced pathological features, which are critical considerations in late-stage disease management?",
+        "ground_truth_answer": "Cell therapy is proposed as a promising strategy for Alzheimer's disease that aims to stop neurodegenerative processes and promote the regeneration of nervous tissue, directly addressing the advanced pathological features that current treatments cannot.",
+        "source_pmid": "41665751",
+        "mesh_terms": "Alzheimer Disease/pathology",
+        "difficulty": "hard"
+    },
+    {
+        "question_id": "TRET_139_001",
+        "category": "Category 3: Treatment & Management",
+        "question": "What crucial target for Alzheimer's disease therapy is being investigated in this study as a potential interaction site for phenolic compounds?",
+        "ground_truth_answer": "Amyloid-beta (A\u00df) peptides.",
+        "source_pmid": "41920139",
+        "mesh_terms": "Alzheimer Disease/therapy",
+        "difficulty": "easy"
+    },
+    {
+        "question_id": "TRET_139_002",
+        "category": "Category 3: Treatment & Management",
+        "question": "Based on the computational insights provided, which two specific phenolic compounds exhibited superior binding to A\u00df fibrils?",
+        "ground_truth_answer": "Rhapontigenin and Okanin.",
+        "source_pmid": "41920139",
+        "mesh_terms": "Alzheimer Disease/therapy",
+        "difficulty": "easy"
+    },
+    {
+        "question_id": "TRET_139_003",
+        "category": "Category 3: Treatment & Management",
+        "question": "What primary methodological approaches were utilized in this study to explore the molecular binding mechanism of phenolic compounds with A\u00df fibrils?",
+        "ground_truth_answer": "Computational methods, specifically extra precision (XP) docking, induced fit docking (IFD), and molecular dynamics (MD) simulations.",
+        "source_pmid": "41920139",
+        "mesh_terms": "Alzheimer Disease/therapy",
+        "difficulty": "medium"
+    },
+    {
+        "question_id": "TRET_705_001",
+        "category": "Category 3: Treatment & Management",
+        "question": "What type of animal model was utilized to establish the Alzheimer's disease (AD) model in this study?",
+        "ground_truth_answer": "The study utilized C57BL/6 mice, with the Alzheimer's disease (AD) model established by subcutaneous injection of D-galactose.",
+        "source_pmid": "41814705",
+        "mesh_terms": "Alzheimer Disease/therapy",
+        "difficulty": "easy"
+    },
+    {
+        "question_id": "TRET_705_002",
+        "category": "Category 3: Treatment & Management",
+        "question": "What were the three different doses of Qiangji Decoction (QJD) extract administered to the treatment groups?",
+        "ground_truth_answer": "The L-QJD group received 12.48 g\u00b7kg~(-1), the M-QJD group received 24.96 g\u00b7kg~(-1), and the H-QJD group received 49.92 g\u00b7kg~(-1) of QJD extract.",
+        "source_pmid": "41814705",
+        "mesh_terms": "Alzheimer Disease/therapy",
+        "difficulty": "medium"
+    },
+    {
+        "question_id": "TRET_705_003",
+        "category": "Category 3: Treatment & Management",
+        "question": "According to the abstract, what specific molecular pathway and downstream effects are Qiangji Decoction (QJD) hypothesized to regulate to ameliorate D-galactose-induced neural damage?",
+        "ground_truth_answer": "Qiangji Decoction (QJD) is hypothesized to regulate the AMPK\u03b1/Drp1/Nrf2 pathway to suppress oxidative stress and neuronal apoptosis, thereby ameliorating neural damage.",
+        "source_pmid": "41814705",
+        "mesh_terms": "Alzheimer Disease/therapy",
+        "difficulty": "hard"
+    },
+    {
+        "question_id": "TRET_401_001",
+        "category": "Category 3: Treatment & Management",
+        "question": "What is the observed expression level of TRIM11 in Alzheimer's Disease, and what is the effect of its overexpression in AD mouse models?",
+        "ground_truth_answer": "TRIM11 is downregulated in Alzheimer's Disease (AD) but has been demonstrated to improve cognitive function when overexpressed in mouse AD models.",
+        "source_pmid": "41726401",
+        "mesh_terms": "Alzheimer Disease/therapy",
+        "difficulty": "easy"
+    },
+    {
+        "question_id": "TRET_401_002",
+        "category": "Category 3: Treatment & Management",
+        "question": "What is the primary aim of this study in identifying new therapeutic targets for Alzheimer's Disease?",
+        "ground_truth_answer": "The study aims to identify potential genetic regulators of TRIM11, which may offer new targets for future therapeutic strategies in AD.",
+        "source_pmid": "41726401",
+        "mesh_terms": "Alzheimer Disease/therapy",
+        "difficulty": "easy"
+    },
+    {
+        "question_id": "TRET_401_003",
+        "category": "Category 3: Treatment & Management",
+        "question": "What specific methodologies were employed in this study to identify potential genetic regulators of TRIM11?",
+        "ground_truth_answer": "The study utilized single-cell and single-nucleus RNA sequencing, graph learning methods, a probabilistic approach, and Bayesian networks.",
+        "source_pmid": "41726401",
+        "mesh_terms": "Alzheimer Disease/therapy",
+        "difficulty": "medium"
+    },
+    {
+        "question_id": "TRET_398_001",
+        "category": "Category 3: Treatment & Management",
+        "question": "According to this proteome-wide association study, what are the top candidate drugs for Alzheimer's disease treatment specifically identified for European and African American populations?",
+        "ground_truth_answer": "Ramipril is identified as a top candidate for European populations, and BAY 85-8501 for African American populations.",
+        "source_pmid": "41726398",
+        "mesh_terms": "Alzheimer Disease/therapy",
+        "difficulty": "easy"
+    },
+    {
+        "question_id": "TRET_398_002",
+        "category": "Category 3: Treatment & Management",
+        "question": "What specific models were utilized in this study to first identify protein-coding genes associated with AD risk and then to prioritize repositionable drugs targeting these genes?",
+        "ground_truth_answer": "The BLISS model was used to identify protein-coding genes associated with AD risk, and the GREP model was applied to prioritize repositionable drugs.",
+        "source_pmid": "41726398",
+        "mesh_terms": "Alzheimer Disease/therapy",
+        "difficulty": "medium"
+    },
+    {
+        "question_id": "TRET_398_003",
+        "category": "Category 3: Treatment & Management",
+        "question": "This study emphasizes ancestry-specific drug targets. Clinically, if considering a novel therapeutic approach for an African American patient with Alzheimer's disease based on these findings, which drug candidate would be prioritized, and what is the broader implication for AD treatment strategies?",
+        "ground_truth_answer": "For an African American patient, BAY 85-8501 would be prioritized. The broader implication is that therapeutic strategies for AD should account for population-specific genetic differences and ancestry, moving away from a one-size-fits-all approach to more personalized medicine, as evidenced by the distinct top drug candidates for European and African American cohorts.",
+        "source_pmid": "41726398",
+        "mesh_terms": "Alzheimer Disease/therapy",
+        "difficulty": "hard"
+    },
+    {
+        "question_id": "TRET_554_001",
+        "category": "Category 3: Treatment & Management",
+        "question": "According to the abstract, which pharmacological intervention has shown early reductions in apathy with an acceptable safety profile in multiple randomized controlled trials, including a large 6-month trial?",
+        "ground_truth_answer": "Methylphenidate.",
+        "source_pmid": "41614554",
+        "mesh_terms": "Alzheimer Disease/therapy",
+        "difficulty": "easy"
+    },
+    {
+        "question_id": "TRET_554_002",
+        "category": "Category 3: Treatment & Management",
+        "question": "What is the general conclusion regarding the effectiveness of conventional Alzheimer's medications, such as cholinesterase inhibitors and memantine, for treating apathy in dementia as described in the abstract?",
+        "ground_truth_answer": "They show inconsistent or limited effects on apathy.",
+        "source_pmid": "41614554",
+        "mesh_terms": "Alzheimer Disease/therapy",
+        "difficulty": "medium"
+    },
+    {
+        "question_id": "TRET_554_003",
+        "category": "Category 3: Treatment & Management",
+        "question": "A patient with dementia presents with significant apathy, and their physician is considering various treatment options. Based on the abstract, what is the recommended stance on using antidepressants or antipsychotics specifically for the treatment of apathy, and what is the exception where they might still be considered?",
+        "ground_truth_answer": "Antidepressants and antipsychotics are *not recommended* for treating apathy itself. However, selected agents from these classes may be beneficial if there are comorbid conditions that they are indicated for (e.g., depression, psychosis).",
+        "source_pmid": "41614554",
+        "mesh_terms": "Alzheimer Disease/therapy",
+        "difficulty": "hard"
+    },
+    {
+        "question_id": "TRET_549_001",
+        "category": "Category 3: Treatment & Management",
+        "question": "What are the primary limitations associated with current anti-amyloid therapeutics for Alzheimer's disease mentioned in the abstract?",
+        "ground_truth_answer": "Current anti-amyloid therapeutics provide only modest symptomatic relief and face limitations in accessibility, cost, and long-term efficacy.",
+        "source_pmid": "41594549",
+        "mesh_terms": "Alzheimer Disease/therapy",
+        "difficulty": "easy"
+    },
+    {
+        "question_id": "TRET_549_002",
+        "category": "Category 3: Treatment & Management",
+        "question": "According to the abstract, what characteristics make plant-derived bioactive compounds attractive candidates for Alzheimer's disease treatment, especially in light of the limitations of existing interventions?",
+        "ground_truth_answer": "Plant-derived bioactive compounds are gaining attention as multi-target therapeutic agents due to their pleiotropic actions, relative safety, and ability to cross the blood-brain barrier.",
+        "source_pmid": "41594549",
+        "mesh_terms": "Alzheimer Disease/therapy",
+        "difficulty": "medium"
+    },
+    {
+        "question_id": "TRET_549_003",
+        "category": "Category 3: Treatment & Management",
+        "question": "Can you name at least three specific plant-derived compounds or their botanical sources that are highlighted in the abstract for their potential role in Alzheimer's disease treatment?",
+        "ground_truth_answer": "The abstract highlights withanolides (*Withania somnifera*), curcumin (*Curcuma longa*), ginkgolides and bilobalide (*Ginkgo biloba*), and bacosides (*Bacopa monnieri*).",
+        "source_pmid": "41594549",
+        "mesh_terms": "Alzheimer Disease/therapy",
+        "difficulty": "easy"
+    },
+    {
+        "question_id": "TRET_938_001",
+        "category": "Category 3: Treatment & Management",
+        "question": "According to the abstract, how are antimicrobial peptides (AMPs) being considered in the context of Alzheimer's disease?",
+        "ground_truth_answer": "Antimicrobial peptides are being suggested as potential therapeutic molecules and biomarkers for Alzheimer's disease.",
+        "source_pmid": "41581938",
+        "mesh_terms": "Alzheimer Disease/therapy",
+        "difficulty": "easy"
+    },
+    {
+        "question_id": "TRET_938_002",
+        "category": "Category 3: Treatment & Management",
+        "question": "What is the core idea of the 'microbial hypothesis' concerning the cause of Alzheimer's disease, and what pathological symptom does it propose?",
+        "ground_truth_answer": "The microbial hypothesis suggests that microorganisms present in the body can contribute to Alzheimer's disease pathology by leading to symptoms such as neuroinflammation.",
+        "source_pmid": "41581938",
+        "mesh_terms": "Alzheimer Disease/therapy",
+        "difficulty": "medium"
+    },
+    {
+        "question_id": "TRET_938_003",
+        "category": "Category 3: Treatment & Management",
+        "question": "Based on a recent theory mentioned in the abstract, what alternative reason is proposed for the formation of Amyloid-beta oligomers and plaques in Alzheimer's disease?",
+        "ground_truth_answer": "It is suggested that Amyloid-beta is an antimicrobial peptide on its own, and the formation of its oligomers and plaques is due to neuroprotective reasons. A similar theory exists for the formation of neurofibrillary tangles from Tau.",
+        "source_pmid": "41581938",
+        "mesh_terms": "Alzheimer Disease/therapy",
+        "difficulty": "medium"
+    },
+    {
+        "question_id": "TRET_720_001",
+        "category": "Category 3: Treatment & Management",
+        "question": "What is the specific name of the acupuncture therapy developed by Professor JIN Rui for treating Alzheimer's disease, as mentioned in the abstract?",
+        "ground_truth_answer": "The therapy is called \"intelligence three-needling\" therapy.",
+        "source_pmid": "41558720",
+        "mesh_terms": "Alzheimer Disease/therapy",
+        "difficulty": "easy"
+    },
+    {
+        "question_id": "TRET_720_002",
+        "category": "Category 3: Treatment & Management",
+        "question": "According to the abstract, list two distinct mechanisms through which the \"intelligence three-needling\" therapy is believed to exert its effects in Alzheimer's disease.",
+        "ground_truth_answer": "Two distinct mechanisms are: improving cholinergic system function and enhancing glucose metabolism in brain regions. (Other valid answers include: reducing oxidative stress damage, suppressing neuroinflammation, regulating the Wnt/\u03b2-catenin signaling pathway, promoting autophagy-lysosomal clearance of pathological proteins, activating the Notch pathway, demonstrating neuroprotective and anti-apoptotic effects, and modulating gut microbiota.)",
+        "source_pmid": "41558720",
+        "mesh_terms": "Alzheimer Disease/therapy",
+        "difficulty": "medium"
+    },
+    {
+        "question_id": "TRET_720_003",
+        "category": "Category 3: Treatment & Management",
+        "question": "Beyond general neuroprotective effects, what specific pathways or processes does the \"intelligence three-needling\" therapy activate or promote to strengthen synaptic plasticity and clear pathological proteins, according to the abstract?",
+        "ground_truth_answer": "The therapy activates the transmembrane receptor protein (Notch) pathway to strengthen synaptic plasticity and promotes autophagy-lysosomal clearance of pathological proteins.",
+        "source_pmid": "41558720",
+        "mesh_terms": "Alzheimer Disease/therapy",
+        "difficulty": "hard"
+    },
+    {
+        "question_id": "TRET_956_001",
+        "category": "Category 3: Treatment & Management",
+        "question": "What are the recognized therapeutic properties of Palmitoylethanolamide (PEA) that make it a promising candidate for neurodegenerative disorders, such as Alzheimer's disease?",
+        "ground_truth_answer": "Palmitoylethanolamide (PEA) is recognized for its inherent anti-inflammatory, analgesic, immunomodulatory, and neuroprotective properties.",
+        "source_pmid": "41550956",
+        "mesh_terms": "Alzheimer Disease/therapy",
+        "difficulty": "easy"
+    },
+    {
+        "question_id": "TRET_956_002",
+        "category": "Category 3: Treatment & Management",
+        "question": "What is the observed state and role of dendritic cells (DCs) in Alzheimer's disease (AD) pathology according to the abstract?",
+        "ground_truth_answer": "In Alzheimer's disease, dendritic cells display a dysfunctional, pro-inflammatory profile, suggesting their involvement in disease pathology and progression by initiating and regulating immune responses and inflammation.",
+        "source_pmid": "41550956",
+        "mesh_terms": "Alzheimer Disease/therapy",
+        "difficulty": "medium"
+    },
+    {
+        "question_id": "TRET_956_003",
+        "category": "Category 3: Treatment & Management",
+        "question": "Despite its potential, what aspect of Palmitoylethanolamide's (PEA) therapeutic action in neurodegenerative disorders is explicitly stated as not yet fully understood?",
+        "ground_truth_answer": "The precise mechanisms of action of Palmitoylethanolamide (PEA) remain to be fully understood.",
+        "source_pmid": "41550956",
+        "mesh_terms": "Alzheimer Disease/therapy",
+        "difficulty": "medium"
+    },
+    {
+        "question_id": "BIOM_521_001",
+        "category": "Category 4: Biomarkers",
+        "question": "What percentage of the patients with neurodegenerative diseases were found to be positive for *Toxoplasma gondii* IgG antibodies?",
+        "ground_truth_answer": "57.3%",
+        "source_pmid": "41640521",
+        "mesh_terms": "Alzheimer Disease/cerebrospinal fluid OR Alzheimer Disease/blood",
+        "difficulty": "easy"
+    },
+    {
+        "question_id": "BIOM_521_002",
+        "category": "Category 4: Biomarkers",
+        "question": "How many individual patients with Parkinson's disease were found to be positive for *Toxoplasma gondii* IgG antibodies?",
+        "ground_truth_answer": "60",
+        "source_pmid": "41640521",
+        "mesh_terms": "Alzheimer Disease/cerebrospinal fluid OR Alzheimer Disease/blood",
+        "difficulty": "medium"
+    },
+    {
+        "question_id": "BIOM_521_003",
+        "category": "Category 4: Biomarkers",
+        "question": "Based on the provided data, what percentage of the *total* neurodegenerative patient cohort (300 patients) had *Toxoplasma gondii* IgG antibodies and were specifically diagnosed with Multiple Sclerosis?",
+        "ground_truth_answer": "14%",
+        "source_pmid": "41640521",
+        "mesh_terms": "Alzheimer Disease/cerebrospinal fluid OR Alzheimer Disease/blood",
+        "difficulty": "hard"
+    },
+    {
+        "question_id": "BIOM_733_001",
+        "category": "Category 4: Biomarkers",
+        "question": "To generate the Alzheimer's disease animal model in C3H mice as described, what chemical compound and administration route were specifically utilized?",
+        "ground_truth_answer": "Trimethyltin (TMT) was administered via intraperitoneal injection.",
+        "source_pmid": "41630733",
+        "mesh_terms": "Alzheimer Disease/cerebrospinal fluid OR Alzheimer Disease/blood",
+        "difficulty": "easy"
+    },
+    {
+        "question_id": "BIOM_733_002",
+        "category": "Category 4: Biomarkers",
+        "question": "Beyond behavioral assessments, what two primary types of biological markers or assessments were used to evaluate the AD model, and what specific brain region was examined for pathology?",
+        "ground_truth_answer": "Hematological analyses (blood routine) and protein biomarkers were assessed. Pathological changes were examined in brain structure, particularly the hippocampus, using hematoxylin and eosin (H&E) and Nissl staining.",
+        "source_pmid": "41630733",
+        "mesh_terms": "Alzheimer Disease/cerebrospinal fluid OR Alzheimer Disease/blood",
+        "difficulty": "medium"
+    },
+    {
+        "question_id": "BIOM_733_003",
+        "category": "Category 4: Biomarkers",
+        "question": "What were the exact age, sex, and total number of C3H mice used across both the non-treated and treatment groups in this study's experimental design?",
+        "ground_truth_answer": "Eight male C3H mice were used in total (four per non-treated group and four per treatment group), all aged 8 weeks.",
+        "source_pmid": "41630733",
+        "mesh_terms": "Alzheimer Disease/cerebrospinal fluid OR Alzheimer Disease/blood",
+        "difficulty": "medium"
+    },
+    {
+        "question_id": "BIOM_087_001",
+        "category": "Category 4: Biomarkers",
+        "question": "What does the abstract identify as the strongest correlate of cognitive loss, surpassing amyloid or tau burden?",
+        "ground_truth_answer": "Synaptic loss.",
+        "source_pmid": "41561087",
+        "mesh_terms": "Alzheimer Disease/cerebrospinal fluid OR Alzheimer Disease/blood",
+        "difficulty": "easy"
+    },
+    {
+        "question_id": "BIOM_087_002",
+        "category": "Category 4: Biomarkers",
+        "question": "According to this perspective, what critical research gap in immunomodulatory therapy trials contributes to the paradox where observational studies suggest benefits but the first major antiviral RCT for AD was negative?",
+        "ground_truth_answer": "The absence of cerebrospinal fluid (CSF) synaptic integrity biomarkers in trial design.",
+        "source_pmid": "41561087",
+        "mesh_terms": "Alzheimer Disease/cerebrospinal fluid OR Alzheimer Disease/blood",
+        "difficulty": "medium"
+    },
+    {
+        "question_id": "BIOM_087_003",
+        "category": "Category 4: Biomarkers",
+        "question": "The abstract notes a shift from amyloid-centric trials to interventions targeting upstream triggers like viral infections. Given the negative outcome of the Valacyclovir for Alzheimer's Disease trial, what specific type of clinical trial endpoint does the perspective advocate as essential for future immunomodulatory trials to resolve the therapeutic development paradox?",
+        "ground_truth_answer": "Synaptic integrity biomarkers, particularly cerebrospinal fluid (CSF) synaptic biomarkers.",
+        "source_pmid": "41561087",
+        "mesh_terms": "Alzheimer Disease/cerebrospinal fluid OR Alzheimer Disease/blood",
+        "difficulty": "hard"
+    },
+    {
+        "question_id": "BIOM_895_001",
+        "category": "Category 4: Biomarkers",
+        "question": "What is the primary clinical application of the plasma protein panel developed in this study regarding Alzheimer's disease?",
+        "ground_truth_answer": "The primary clinical application is for the early recognition of a risk of Alzheimer's disease (AD).",
+        "source_pmid": "41515895",
+        "mesh_terms": "Alzheimer Disease/cerebrospinal fluid OR Alzheimer Disease/blood",
+        "difficulty": "easy"
+    },
+    {
+        "question_id": "BIOM_895_002",
+        "category": "Category 4: Biomarkers",
+        "question": "Which specific proteins constitute the universal panel identified in this study that demonstrated strong classification for Alzheimer's disease risk?",
+        "ground_truth_answer": "The universal panel consists of 13 proteins: ORM1, APOA4, LBP, HP, FN1, BCHE, APOE, PZP, A1BG, TF, SERPINA7, TTR, and F12.",
+        "source_pmid": "41515895",
+        "mesh_terms": "Alzheimer Disease/cerebrospinal fluid OR Alzheimer Disease/blood",
+        "difficulty": "medium"
+    },
+    {
+        "question_id": "BIOM_895_003",
+        "category": "Category 4: Biomarkers",
+        "question": "What analytical technique was used to quantify the plasma protein levels in this study, and how many total samples were analyzed?",
+        "ground_truth_answer": "The study used a quantitative multiple reaction monitoring (MRM) approach (MRM-MS Analysis) and analyzed a total of 331 blood plasma samples.",
+        "source_pmid": "41515895",
+        "mesh_terms": "Alzheimer Disease/cerebrospinal fluid OR Alzheimer Disease/blood",
+        "difficulty": "easy"
+    },
+    {
+        "question_id": "BIOM_019_001",
+        "category": "Category 4: Biomarkers",
+        "question": "What is the primary objective of this study regarding neuropsychiatric symptoms in Alzheimer's disease?",
+        "ground_truth_answer": "The primary objective is to delineate and compare neuropsychiatric symptom (NPS) profiles across the Alzheimer's disease continuum in adults with and without Down syndrome.",
+        "source_pmid": "41470019",
+        "mesh_terms": "Alzheimer Disease/cerebrospinal fluid OR Alzheimer Disease/blood",
+        "difficulty": "easy"
+    },
+    {
+        "question_id": "BIOM_019_002",
+        "category": "Category 4: Biomarkers",
+        "question": "Besides neuropsychiatric symptom assessment, what three categories of objective markers did the study aim to investigate in relation to NPS profiles?",
+        "ground_truth_answer": "The study aimed to investigate amyloid-tau (AT) biomarker status, neuroimaging (MRI), and neurophysiological markers (EEG) in relation to NPS profiles.",
+        "source_pmid": "41470019",
+        "mesh_terms": "Alzheimer Disease/cerebrospinal fluid OR Alzheimer Disease/blood",
+        "difficulty": "medium"
+    },
+    {
+        "question_id": "BIOM_019_003",
+        "category": "Category 4: Biomarkers",
+        "question": "What were the minimum age inclusion criteria for adults with Down syndrome versus non-Down syndrome participants in this study?",
+        "ground_truth_answer": "Adults with Down syndrome were included if they were \u226518 years, while non-Down syndrome participants were included if they were \u226550 years.",
+        "source_pmid": "41470019",
+        "mesh_terms": "Alzheimer Disease/cerebrospinal fluid OR Alzheimer Disease/blood",
+        "difficulty": "medium"
+    },
+    {
+        "question_id": "BIOM_404_001",
+        "category": "Category 4: Biomarkers",
+        "question": "What was the primary aim of this study regarding cardiovascular risk, plasma biomarkers, and cognitive status?",
+        "ground_truth_answer": "The study aimed to explore if cardiovascular risk moderates the relationship between plasma Alzheimer disease biomarkers and cognitive status.",
+        "source_pmid": "41467404",
+        "mesh_terms": "Alzheimer Disease/cerebrospinal fluid OR Alzheimer Disease/blood",
+        "difficulty": "easy"
+    },
+    {
+        "question_id": "BIOM_404_002",
+        "category": "Category 4: Biomarkers",
+        "question": "Which specific tool was utilized to quantify cardiovascular risk for participants in this study?",
+        "ground_truth_answer": "Cardiovascular risk was quantified using the Atherosclerotic Cardiovascular Disease (ASCVD) risk calculator.",
+        "source_pmid": "41467404",
+        "mesh_terms": "Alzheimer Disease/cerebrospinal fluid OR Alzheimer Disease/blood",
+        "difficulty": "medium"
+    },
+    {
+        "question_id": "BIOM_404_003",
+        "category": "Category 4: Biomarkers",
+        "question": "Besides the amyloid beta 42/amyloid beta 40 ratio, which other specific plasma biomarkers were included in the analysis to assess their relationship with cognitive status?",
+        "ground_truth_answer": "The other plasma biomarkers included were phosphorylated tau (p-tau)181, p-tau217, and apoE4 (apolipoprotein E).",
+        "source_pmid": "41467404",
+        "mesh_terms": "Alzheimer Disease/cerebrospinal fluid OR Alzheimer Disease/blood",
+        "difficulty": "medium"
+    },
+    {
+        "question_id": "BIOM_672_001",
+        "category": "Category 4: Biomarkers",
+        "question": "What was the primary objective of this proteome-wide association study (PWAS) related to Alzheimer's disease?",
+        "ground_truth_answer": "The primary objective was to identify proteins with genetically regulated plasma levels associated with Alzheimer's disease (AD) and its related phenotypes.",
+        "source_pmid": "41460672",
+        "mesh_terms": "Alzheimer Disease/cerebrospinal fluid OR Alzheimer Disease/blood",
+        "difficulty": "easy"
+    },
+    {
+        "question_id": "BIOM_672_002",
+        "category": "Category 4: Biomarkers",
+        "question": "How many novel Alzheimer's disease-associated plasma proteins were identified by this PWAS, and can you list any examples mentioned?",
+        "ground_truth_answer": "The study identified 13 novel AD-associated plasma proteins. Examples mentioned include FES, LRP11, and HDGF.",
+        "source_pmid": "41460672",
+        "mesh_terms": "Alzheimer Disease/cerebrospinal fluid OR Alzheimer Disease/blood",
+        "difficulty": "medium"
+    },
+    {
+        "question_id": "BIOM_672_003",
+        "category": "Category 4: Biomarkers",
+        "question": "Beyond the initial PWAS, what additional analyses and studies were conducted to validate and expand the findings regarding AD-associated proteins?",
+        "ground_truth_answer": "To validate and expand findings, the researchers conducted longitudinal analyses of AD and mild cognitive disorder (MCD) over a 13.7-year follow-up, genetic-based PWAS analyses, cross-sectional studies on hippocampal volume, and constructed protein-protein interaction networks to explore mechanistic associations.",
+        "source_pmid": "41460672",
+        "mesh_terms": "Alzheimer Disease/cerebrospinal fluid OR Alzheimer Disease/blood",
+        "difficulty": "hard"
+    },
+    {
+        "question_id": "PROG_841_001",
+        "category": "Category 5: Prognosis & Risk Factors",
+        "question": "According to the China Alzheimer's Disease Report 2024 cited in this abstract, what was the reported number of deaths in China due to Alzheimer's disease and other dementias, and what percentage did this account for of global dementia-related deaths?",
+        "ground_truth_answer": "The reported number of deaths in China due to Alzheimer's disease and other dementias was 320,715, accounting for 19.8% of global dementia-related deaths.",
+        "source_pmid": "41656841",
+        "mesh_terms": "Alzheimer Disease/epidemiology",
+        "difficulty": "easy"
+    },
+    {
+        "question_id": "PROG_841_002",
+        "category": "Category 5: Prognosis & Risk Factors",
+        "question": "What is the primary aim of this study concerning senile dementias in China, and which specific age group among Chinese residents is the focus of its analysis from 1992 to 2021?",
+        "ground_truth_answer": "The study aims to analyze the changes in the disease burden of dementias among Chinese residents from 1992 to 2021 and to predict future trends. The analysis specifically focuses on Chinese residents aged 60 years and above.",
+        "source_pmid": "41656841",
+        "mesh_terms": "Alzheimer Disease/epidemiology",
+        "difficulty": "medium"
+    },
+    {
+        "question_id": "PROG_841_003",
+        "category": "Category 5: Prognosis & Risk Factors",
+        "question": "To assess the disease burden of senile dementia in Chinese residents from 1992 to 2021, what three primary categories of metrics (and their age-standardized rates) were analyzed using Joinpoint regression models?",
+        "ground_truth_answer": "The three primary categories of metrics analyzed were: incidence and age-standardized incidence rate; deaths and age-standardized mortality rate; and disability-adjusted life years (DALY) and age-standardized DALY rate.",
+        "source_pmid": "41656841",
+        "mesh_terms": "Alzheimer Disease/epidemiology",
+        "difficulty": "medium"
+    },
+    {
+        "question_id": "PROG_889_001",
+        "category": "Category 5: Prognosis & Risk Factors",
+        "question": "What is the primary objective of this study?",
+        "ground_truth_answer": "To evaluate the independent and interaction effects of air pollution and accelerometer-based physical activity on incident risks of dementia subtypes.",
+        "source_pmid": "41607889",
+        "mesh_terms": "Alzheimer Disease/epidemiology",
+        "difficulty": "easy"
+    },
+    {
+        "question_id": "PROG_889_002",
+        "category": "Category 5: Prognosis & Risk Factors",
+        "question": "How many participants were included in this study, and what method was used to measure their physical activity?",
+        "ground_truth_answer": "96,661 participants from the UK Biobank study were included, and their physical activity was measured using accelerometer-derived data.",
+        "source_pmid": "41607889",
+        "mesh_terms": "Alzheimer Disease/epidemiology",
+        "difficulty": "medium"
+    },
+    {
+        "question_id": "PROG_889_003",
+        "category": "Category 5: Prognosis & Risk Factors",
+        "question": "What specific issue or inconsistency regarding the protective effect of physical activity on dementia risk does this study aim to investigate further?",
+        "ground_truth_answer": "This study aims to investigate the highly inconsistent magnitude of the protective effect of physical activity on dementia risk, specifically considering potential moderating effects of environmental factors such as air pollution and various approaches to physical activity measurement.",
+        "source_pmid": "41607889",
+        "mesh_terms": "Alzheimer Disease/epidemiology",
+        "difficulty": "hard"
+    },
+    {
+        "question_id": "PROG_508_001",
+        "category": "Category 5: Prognosis & Risk Factors",
+        "question": "According to the study's findings on Alzheimer's disease hospitalizations in Brazil (2012-2022), which gender had a higher proportion of hospitalizations?",
+        "ground_truth_answer": "Females accounted for a higher proportion of hospitalizations (65.80%).",
+        "source_pmid": "41581508",
+        "mesh_terms": "Alzheimer Disease/epidemiology",
+        "difficulty": "easy"
+    },
+    {
+        "question_id": "PROG_508_002",
+        "category": "Category 5: Prognosis & Risk Factors",
+        "question": "What was the average length of stay for Alzheimer's disease hospitalizations in the Brazilian Unified Health System between 2012 and 2022?",
+        "ground_truth_answer": "The average hospital stay was 21.6 days.",
+        "source_pmid": "41581508",
+        "mesh_terms": "Alzheimer Disease/epidemiology",
+        "difficulty": "easy"
+    },
+    {
+        "question_id": "PROG_508_003",
+        "category": "Category 5: Prognosis & Risk Factors",
+        "question": "Based on the study, what was the temporal trend of Alzheimer's disease hospitalizations in the Brazilian Unified Health System between 2012 and 2022 across different sexes, age groups by sex, and regions?",
+        "ground_truth_answer": "The hospitalization trend was stable across sex, age groups by sex, and regions.",
+        "source_pmid": "41581508",
+        "mesh_terms": "Alzheimer Disease/epidemiology",
+        "difficulty": "medium"
+    },
+    {
+        "question_id": "PROG_203_001",
+        "category": "Category 5: Prognosis & Risk Factors",
+        "question": "At which specific time points after ischemia was ApoA1 gene expression observed to be lower than control values in the frontal cortex?",
+        "ground_truth_answer": "ApoA1 expression was lower than control values after 2 days, 6 months, and 12 months post-ischemia.",
+        "source_pmid": "41516203",
+        "mesh_terms": "Alzheimer Disease/epidemiology",
+        "difficulty": "easy"
+    },
+    {
+        "question_id": "PROG_203_002",
+        "category": "Category 5: Prognosis & Risk Factors",
+        "question": "Which two apolipoprotein genes mentioned in the study shared a similar expression pattern in the frontal cortex after ischemia?",
+        "ground_truth_answer": "ApoE and ApoJ showed a similar expression pattern in the frontal cortex after ischemia.",
+        "source_pmid": "41516203",
+        "mesh_terms": "Alzheimer Disease/epidemiology",
+        "difficulty": "medium"
+    },
+    {
+        "question_id": "PROG_203_003",
+        "category": "Category 5: Prognosis & Risk Factors",
+        "question": "Based on the observed fluctuations in ApoA1, ApoE, and ApoJ gene expression over a two-year period, what do the authors suggest these changes might indicate regarding neurodegeneration?",
+        "ground_truth_answer": "The authors suggest that the observed changes in gene expression may reflect the activation of mechanisms or processes involved in the development of neurodegeneration.",
+        "source_pmid": "41516203",
+        "mesh_terms": "Alzheimer Disease/epidemiology",
+        "difficulty": "hard"
+    },
+    {
+        "question_id": "PROG_782_001",
+        "category": "Category 5: Prognosis & Risk Factors",
+        "question": "According to the study on Alzheimer's disease in southwestern China, what are the identified key risk factors for AD and MCI?",
+        "ground_truth_answer": "The key risk factors identified in the study for AD and MCI include age >80 years, female sex, low education, rural residence, surgical history, and urological comorbidities.",
+        "source_pmid": "41476782",
+        "mesh_terms": "Alzheimer Disease/epidemiology",
+        "difficulty": "easy"
+    },
+    {
+        "question_id": "PROG_782_002",
+        "category": "Category 5: Prognosis & Risk Factors",
+        "question": "What is the prevalence of Alzheimer's disease and overall cognitive decline among adults aged \u226560 years in southwestern China, and how does this compare to national and global averages, according to the study?",
+        "ground_truth_answer": "The study found a high burden of cognitive impairment in southwestern China, with 22.07% of adults aged \u226560 years exhibiting cognitive decline and 5.81% diagnosed with Alzheimer's disease. These rates are reported to surpass national and global averages.",
+        "source_pmid": "41476782",
+        "mesh_terms": "Alzheimer Disease/epidemiology",
+        "difficulty": "medium"
+    },
+    {
+        "question_id": "PROG_782_003",
+        "category": "Category 5: Prognosis & Risk Factors",
+        "question": "Considering the study's findings, what clinical implications might the identified regional prevalence and unique risk factors have for a healthcare provider managing an elderly patient from a rural area in southwestern China who presents with early signs of cognitive impairment?",
+        "ground_truth_answer": "For an elderly patient from a rural area in southwestern China with early signs of cognitive impairment, a healthcare provider should be particularly alert due to the region's higher-than-average prevalence of cognitive decline and AD. The assessment should specifically focus on identified regional risk factors, including the patient's exact age (especially if >80), sex (females are at higher risk), educational background, history of any surgeries, and presence of urological comorbidities. This targeted evaluation based on regional data can help in early diagnosis and more tailored management strategies, considering the higher burden of the disease in this specific population.",
+        "source_pmid": "41476782",
+        "mesh_terms": "Alzheimer Disease/epidemiology",
+        "difficulty": "hard"
+    },
+    {
+        "question_id": "PROG_307_001",
+        "category": "Category 5: Prognosis & Risk Factors",
+        "question": "What type of study design was used to systematically identify medical conditions associated with subsequent Alzheimer's disease development from electronic health records?",
+        "ground_truth_answer": "Retrospective cohort study.",
+        "source_pmid": "41466307",
+        "mesh_terms": "Alzheimer Disease/epidemiology",
+        "difficulty": "easy"
+    },
+    {
+        "question_id": "PROG_307_002",
+        "category": "Category 5: Prognosis & Risk Factors",
+        "question": "In this study, what specific methodology was used to determine which medical conditions were more likely to occur in individuals who later developed Alzheimer's disease?",
+        "ground_truth_answer": "Tracking electronic health records (EHRs) over a 10-year window before AD diagnosis and comparing the EHRs between AD cases and age- and gender-matched controls.",
+        "source_pmid": "41466307",
+        "mesh_terms": "Alzheimer Disease/epidemiology",
+        "difficulty": "medium"
+    },
+    {
+        "question_id": "PROG_307_003",
+        "category": "Category 5: Prognosis & Risk Factors",
+        "question": "Beyond identifying associated medical conditions from electronic health records, what additional research component was included in this study to further understand these associations, and what data sources were used for this component?",
+        "ground_truth_answer": "The study assessed the genetic underpinnings of these conditions in relation to AD genetics, using data from two large-scale biobanks: BioVU and UK Biobank.",
+        "source_pmid": "41466307",
+        "mesh_terms": "Alzheimer Disease/epidemiology",
+        "difficulty": "hard"
+    },
+    {
+        "question_id": "PROG_835_001",
+        "category": "Category 5: Prognosis & Risk Factors",
+        "question": "What is the primary purpose of calculating Mortality-to-Incidence Ratios (MIRs) for Alzheimer's Disease and Related Dementias (ADRDs) in the South Carolina study?",
+        "ground_truth_answer": "The primary purpose of calculating MIRs for ADRDs in this study is to assess disease burdens and illustrate disparities, specifically to identify areas in South Carolina with the greatest burden for targeting interventions.",
+        "source_pmid": "41460835",
+        "mesh_terms": "Alzheimer Disease/epidemiology",
+        "difficulty": "easy"
+    },
+    {
+        "question_id": "PROG_835_002",
+        "category": "Category 5: Prognosis & Risk Factors",
+        "question": "Which demographic groups in South Carolina consistently experienced higher ADRD Mortality-to-Incidence Ratios (MIRs), and how did the COVID-19 pandemic influence these disparities?",
+        "ground_truth_answer": "Black people and rural individuals consistently experienced higher ADRD MIRs. The COVID-19 pandemic increased this disparity gap.",
+        "source_pmid": "41460835",
+        "mesh_terms": "Alzheimer Disease/epidemiology",
+        "difficulty": "medium"
+    },
+    {
+        "question_id": "PROG_835_003",
+        "category": "Category 5: Prognosis & Risk Factors",
+        "question": "The study noted a significant finding regarding MIRs greater than 1.00. For which specific demographic group were these MIRs exclusively observed, and what is the general implication of an ADRD MIR exceeding 1.00 in the context of assessing disease burdens?",
+        "ground_truth_answer": "MIRs greater than 1.00 were only observed among Black people. In the context of assessing disease burdens, an ADRD MIR exceeding 1.00 implies that the age-adjusted mortality rate for ADRDs is higher than the age-adjusted incidence rate in that population. This suggests a potentially greater burden of deaths relative to new diagnoses, which could point to issues like underdiagnosis, higher case fatality rates, or challenges in capturing incidence.",
+        "source_pmid": "41460835",
+        "mesh_terms": "Alzheimer Disease/epidemiology",
+        "difficulty": "hard"
+    },
+    {
+        "question_id": "PROG_671_001",
+        "category": "Category 5: Prognosis & Risk Factors",
+        "question": "What specific plasma biomarkers for Alzheimer's disease were measured in this population-based study?",
+        "ground_truth_answer": "The study measured 40- and 42-amino acid amyloid-\u03b2 (A\u03b2\u2084\u2080 and A\u03b2\u2084\u2082), total tau (T-tau), tau phosphorylated at threonine 181 (P-tau181), and neurofilament light chain (NfL).",
+        "source_pmid": "41460671",
+        "mesh_terms": "Alzheimer Disease/epidemiology",
+        "difficulty": "easy"
+    },
+    {
+        "question_id": "PROG_671_002",
+        "category": "Category 5: Prognosis & Risk Factors",
+        "question": "Which specific demographic group and age range were the participants drawn from for this study?",
+        "ground_truth_answer": "The participants were 845 randomly selected Japanese men from the general population, aged over 40 years.",
+        "source_pmid": "41460671",
+        "mesh_terms": "Alzheimer Disease/epidemiology",
+        "difficulty": "medium"
+    },
+    {
+        "question_id": "PROG_671_003",
+        "category": "Category 5: Prognosis & Risk Factors",
+        "question": "What was the primary objective of this study regarding the interpretation of AD plasma biomarkers in a general population setting?",
+        "ground_truth_answer": "The primary objective was to identify confounding variables that may obscure the interpretation of AD plasma biomarkers by examining their associations with various physiological indices, including age, renal function, and cognitive function.",
+        "source_pmid": "41460671",
+        "mesh_terms": "Alzheimer Disease/epidemiology",
+        "difficulty": "medium"
+    },
+    {
+        "question_id": "TRET_241_001",
+        "category": "Category 3: Treatment & Management",
+        "question": "What are the two primary mechanisms of action targeted by compound 7c in the context of Alzheimer's disease according to this study?",
+        "ground_truth_answer": "Compound 7c targets human butyrylcholinesterase (hBChE) for inhibition and activates the sigma-1 receptor (S1R).",
+        "source_pmid": "41547241",
+        "mesh_terms": "Alzheimer Disease/therapy",
+        "difficulty": "easy"
+    },
+    {
+        "question_id": "TRET_241_002",
+        "category": "Category 3: Treatment & Management",
+        "question": "In the A\u03b225-35 mouse model, what was the effective dose of compound 7c for improving cognitive deficits, and what advantage did it demonstrate compared to single-target compounds?",
+        "ground_truth_answer": "Compound 7c showed remarkable improvement in cognitive deficits at an effective dose of 0.01 mg/kg. This dose is 10-fold lower compared to single-target compounds, indicating a significant improvement in potency or efficacy.",
+        "source_pmid": "41547241",
+        "mesh_terms": "Alzheimer Disease/therapy",
+        "difficulty": "medium"
+    },
+    {
+        "question_id": "TRET_241_003",
+        "category": "Category 3: Treatment & Management",
+        "question": "Based on the abstract, what is the scientific rationale for developing a multi-target ligand like compound 7c for Alzheimer's disease, rather than focusing on single-target approaches?",
+        "ground_truth_answer": "The rationale stems from the \"multifactorial nature and complex pathophysiology\" of Alzheimer's disease. Developing a multi-target ligand aims to address multiple contributing pathways simultaneously (e.g., \u03b2-amyloid plaque formation via hBChE and neuroinflammation/protective pathways via S1R) to achieve a more comprehensive and potent therapeutic effect, as evidenced by compound 7c's 10-fold lower effective dose compared to single-target compounds.",
+        "source_pmid": "41547241",
+        "mesh_terms": "Alzheimer Disease/therapy",
+        "difficulty": "hard"
+    },
+    {
+        "question_id": "BIOM_600_001",
+        "category": "Category 4: Biomarkers",
+        "question": "What three clinically relevant plasma biomarkers were investigated for diagnostic performance in this systematic review?",
+        "ground_truth_answer": "The review focused on phosphorylated tau-217 (pTau217), glial fibrillary acidic protein (GFAP), and neurofilament light chain (NfL).",
+        "source_pmid": "41460600",
+        "mesh_terms": "Alzheimer Disease/cerebrospinal fluid OR Alzheimer Disease/blood",
+        "difficulty": "easy"
+    },
+    {
+        "question_id": "BIOM_600_002",
+        "category": "Category 4: Biomarkers",
+        "question": "According to the abstract, what are the primary advantages of blood biomarkers compared to the gold standard methods for Alzheimer's disease diagnosis?",
+        "ground_truth_answer": "Blood biomarkers offer a scalable, accessible, and resource-efficient diagnostic alternative, unlike the invasive, expensive, and non-scalable gold standard methods (cerebrospinal fluid lumbar puncture and amyloid-positron emission tomography).",
+        "source_pmid": "41460600",
+        "mesh_terms": "Alzheimer Disease/cerebrospinal fluid OR Alzheimer Disease/blood",
+        "difficulty": "medium"
+    },
+    {
+        "question_id": "BIOM_600_003",
+        "category": "Category 4: Biomarkers",
+        "question": "What was the common study design among all included studies in this review, and what is a general limitation of this design regarding disease progression?",
+        "ground_truth_answer": "All included studies were cross-sectional. A limitation of this design is that it provides a snapshot at a single point in time, making it less suitable for assessing disease progression or changes in biomarkers over time, which would typically require longitudinal studies.",
+        "source_pmid": "41460600",
+        "mesh_terms": "Alzheimer Disease/cerebrospinal fluid OR Alzheimer Disease/blood",
+        "difficulty": "hard"
+    },
+    {
+        "question_id": "BIOM_598_001",
+        "category": "Category 4: Biomarkers",
+        "question": "In this study of patients with probable DLB, what was observed regarding Alzheimer's disease biological profiles more frequently in females compared to males during univariate analysis?",
+        "ground_truth_answer": "In univariate analysis, females with probable DLB had more frequent AD profiles (based on cerebrospinal fluid biomarkers).",
+        "source_pmid": "41460598",
+        "mesh_terms": "Alzheimer Disease/cerebrospinal fluid OR Alzheimer Disease/blood",
+        "difficulty": "easy"
+    },
+    {
+        "question_id": "BIOM_598_002",
+        "category": "Category 4: Biomarkers",
+        "question": "According to this study, which specific sex-related clinical differences in DLB were partially attenuated after adjusting for Alzheimer's disease cerebrospinal fluid biomarkers?",
+        "ground_truth_answer": "After adjusting for AD biomarkers, sex differences in REM sleep disorder and Mini-Mental State Examination (MMSE) scores were attenuated.",
+        "source_pmid": "41460598",
+        "mesh_terms": "Alzheimer Disease/cerebrospinal fluid OR Alzheimer Disease/blood",
+        "difficulty": "medium"
+    },
+    {
+        "question_id": "BIOM_598_003",
+        "category": "Category 4: Biomarkers",
+        "question": "Following adjustment for Alzheimer's disease biomarkers, which sex-related clinical difference in DLB was noted to *not* be attenuated, suggesting other underlying mechanisms?",
+        "ground_truth_answer": "The sex difference in parkinsonism was not attenuated after adjusting for AD biomarkers.",
+        "source_pmid": "41460598",
+        "mesh_terms": "Alzheimer Disease/cerebrospinal fluid OR Alzheimer Disease/blood",
+        "difficulty": "hard"
+    },
+    {
+        "question_id": "BIOM_950_001",
+        "category": "Category 4: Biomarkers",
+        "question": "What common laboratory confounding factor is identified in the abstract as potentially causing falsely elevated plasma p-tau217 results in Alzheimer's disease biomarker assays?",
+        "ground_truth_answer": "Heterophilic antibodies (HAb) are a persistent potential confounding factor that can lead to falsely elevated plasma p-tau217 results.",
+        "source_pmid": "41457950",
+        "mesh_terms": "Alzheimer Disease/cerebrospinal fluid OR Alzheimer Disease/blood",
+        "difficulty": "easy"
+    },
+    {
+        "question_id": "BIOM_950_002",
+        "category": "Category 4: Biomarkers",
+        "question": "If a laboratory suspects heterophilic antibody (HAb) interference in a plasma p-tau217 sample with an unexpectedly high concentration, what specific blocking agent described in the abstract could be used to investigate this interference?",
+        "ground_truth_answer": "Treating the sample with a heterophilic antibody blocking reagent (HBT) is described as a method to investigate and greatly reduce measured p-tau217 concentrations in suspected HAb cases.",
+        "source_pmid": "41457950",
+        "mesh_terms": "Alzheimer Disease/cerebrospinal fluid OR Alzheimer Disease/blood",
+        "difficulty": "medium"
+    },
+    {
+        "question_id": "BIOM_950_003",
+        "category": "Category 4: Biomarkers",
+        "question": "Beyond p-tau217, what other Alzheimer's disease biomarker mentioned in the abstract was also observed to be affected by the HAb blocking reagent, and what is the overarching clinical concern highlighted by such interference?",
+        "ground_truth_answer": "The A\u03b242 biomarker was also affected, as HAb blocking reagent reduced A\u03b242 concentrations in one of the three specimens selected for further investigation. The overarching clinical concern is that HAb interference can result in falsely elevated p-tau217 and p-tau217/A\u03b242 ratio, representing a potential clinical pitfall (e.g., misdiagnosis or incorrect risk assessment for AD).",
+        "source_pmid": "41457950",
+        "mesh_terms": "Alzheimer Disease/cerebrospinal fluid OR Alzheimer Disease/blood",
+        "difficulty": "hard"
+    },
+    {
+        "question_id": "PROG_665_001",
+        "category": "Category 5: Prognosis & Risk Factors",
+        "question": "What is the primary finding regarding the association between Open-Angle Glaucoma (OAG) and Early-Onset Alzheimer's Disease (EOAD) in this study?",
+        "ground_truth_answer": "The study found a significant association between OAG and EOAD, with an odds ratio (OR) of 1.22 (95% CI, 1.06-1.40; p=0.006).",
+        "source_pmid": "41460665",
+        "mesh_terms": "Alzheimer Disease/epidemiology",
+        "difficulty": "easy"
+    },
+    {
+        "question_id": "PROG_665_002",
+        "category": "Category 5: Prognosis & Risk Factors",
+        "question": "According to this study, what percentage of Early-Onset Alzheimer's Disease (EOAD) cases had a prior diagnosis of Open-Angle Glaucoma (OAG)?",
+        "ground_truth_answer": "15.8% of EOAD cases had OAG.",
+        "source_pmid": "41460665",
+        "mesh_terms": "Alzheimer Disease/epidemiology",
+        "difficulty": "easy"
+    },
+    {
+        "question_id": "PROG_665_003",
+        "category": "Category 5: Prognosis & Risk Factors",
+        "question": "Besides Open-Angle Glaucoma (OAG), what other comorbidity was significantly associated with Early-Onset Alzheimer's Disease (EOAD) in this study, and what was its corresponding odds ratio?",
+        "ground_truth_answer": "Diabetes was significantly associated with EOAD (OR, 1.56; 95% CI, 1.37-1.77).",
+        "source_pmid": "41460665",
+        "mesh_terms": "Alzheimer Disease/epidemiology",
+        "difficulty": "medium"
+    },
+    {
+        "question_id": "PROG_601_001",
+        "category": "Category 5: Prognosis & Risk Factors",
+        "question": "What primary neurological health issues are investigated in relation to air pollution in this study?",
+        "ground_truth_answer": "Cognitive decline, Alzheimer's disease (AD), and Alzheimer's disease-related dementias (ADRD).",
+        "source_pmid": "41460601",
+        "mesh_terms": "Alzheimer Disease/epidemiology",
+        "difficulty": "easy"
+    },
+    {
+        "question_id": "PROG_601_002",
+        "category": "Category 5: Prognosis & Risk Factors",
+        "question": "What specific measure of cognitive performance was used in the observational analysis involving the Chinese Longitudinal Healthy Longevity Survey (CLHLS) cohort?",
+        "ground_truth_answer": "Mini-Mental State Examination (MMSE) scores.",
+        "source_pmid": "41460601",
+        "mesh_terms": "Alzheimer Disease/epidemiology",
+        "difficulty": "medium"
+    },
+    {
+        "question_id": "PROG_601_003",
+        "category": "Category 5: Prognosis & Risk Factors",
+        "question": "What advanced genetic methodology was employed to assess the *causal* effects of air pollutants on AD/ADRD risk and to evaluate the role of C-reactive protein as a mediator?",
+        "ground_truth_answer": "Two-sample Mendelian randomization (MR) was used to estimate causal effects on AD risk, and Mediation Mendelian Randomization (Mediation MR) was employed to assess the contribution of C-reactive protein (CRP).",
+        "source_pmid": "41460601",
+        "mesh_terms": "Alzheimer Disease/epidemiology",
+        "difficulty": "hard"
+    }
+]
