@@ -68,11 +68,12 @@ def get_claude_response(prompt):
 
 def get_hf_model_response(prompt):
     start_time = time.time()
-    # Try Qwen 2.5 7B as it has excellent HF support, fallback to Zephyr
+    # Primary model: Mixtral-8x7B as reported in paper
+    # Qwen2.5-7B included as fallback only — not used in published results
     models_to_try = [
         "mistralai/Mixtral-8x7B-Instruct-v0.1",
-        "Qwen/Qwen2.5-7B-Instruct"
-    ]
+        "Qwen/Qwen2.5-7B-Instruct"   
+    ] 
     
     for model_id in models_to_try:
         try:
