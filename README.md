@@ -1,7 +1,5 @@
-# ConfidentNeuro
+# ConfidentNeuro - Medical LLM Benchmark & Conformal Prediction
 Conformal prediction-based hallucination risk scoring for LLM-assisted Alzheimer's clinical decision support
-
-# Medical LLM Benchmark & Conformal Prediction
 
 This project evaluates the performance, robustness, and confidence calibration of Large Language Models (LLMs) on medical benchmarks (specifically targeting Alzheimer's Disease contexts). It generates a dataset from PubMed abstracts, evaluates models using BERTScore, runs conformal prediction to estimate confidence boundaries, audits models via perturbations, and performs ablation analyses.
 
