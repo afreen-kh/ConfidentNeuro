@@ -12,7 +12,7 @@ from typing import List, Dict
 # Configuration
 NCBI_API_KEY = os.getenv("NCBI_API_KEY")
 GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
-EMAIL = "afreen@example.com"  # Required by Entrez
+EMAIL = os.getenv("ENTREZ_EMAIL")
 
 # Setup
 Entrez.email = EMAIL
