@@ -6,7 +6,7 @@ This project evaluates the performance, robustness, and confidence calibration o
 ## Scripts Overview
 
 ### 1. `generate_benchmark.py`
-Retrieves abstracts from PubMed related to Alzheimer's Disease (Diagnosis, Staging, Treatment, Biomarkers, Prognosis) and uses Gemini (e.g. Gemini 2.5 Flash) to generate a set of specific clinical decision support questions and ground truth answers.
+Retrieves abstracts from PubMed related to Alzheimer's Disease (Diagnosis, Staging, Treatment, Biomarkers, Prognosis) and uses an LLM-assisted extraction pipeline to generate a set of specific clinical decision support questions and ground truth answers.
 - **Outputs**: `benchmark_150.json`, `benchmark_150.csv`
 
 ### 2. `evaluate_models.py`
